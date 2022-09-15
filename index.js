@@ -20,9 +20,11 @@ app.use(cors());
 
 // routes
 const exerciseRoutes = require('./routes/exerciseRoute');
+const exerciseLogRoutes = require('./routes/exerciseLogRoutes');
 const workoutRoutes = require('./routes/workoutRoute');
 
 app.use("/exercise", exerciseRoutes);
+app.use("/exerciseLog", exerciseLogRoutes);
 app.use("/workout", workoutRoutes);
 
 app.listen(PORT, () => {
