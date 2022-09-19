@@ -6,6 +6,6 @@ const exerciseLogController = require("../controllers/exerciseLogController");
 router.route('/').get(exerciseLogController.index);
 
 // '/exerciseLog/:bodyPart' routes
-router.route('/:workoutId').get(exerciseLogController.addExerciseLog);
+router.route('/:workoutId').post(exerciseLogController.addExerciseLog);
 
 module.exports = router;
