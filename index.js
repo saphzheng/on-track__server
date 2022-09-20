@@ -1,9 +1,8 @@
 // dependencies
 const express = require('express');
 const cors = require('cors');
-const jwt = require('express-jwt');
+const { expressjwt: jwt } = require('express-jwt');
 const jwks = require('jwks-rsa');
-const axios = require('axios');
 // const knex = require('knex')(require('./knexfile.js').development);
 
 // express app instance
@@ -16,13 +15,13 @@ app.use(express.json());
 app.use(cors());
 
 const verifyJwt = jwt({
-    secret: jwks.express({
+    secret: jwks.expressJwtSecret({
         cache: true,
         rateLimit: true,
         jwksRequestsPerMinute: 5,
         jwksUri: 'https://dev-3av77v7a.us.auth0.com/.well-known/jwks.json'
     }),
-    audience: '"https://onTrack/api/v2/"',
+    audience: 'https://onTrack.com/api/v2/',
     issuer: 'https://dev-3av77v7a.us.auth0.com/',
     algorithms: ['RS256']
 }).unless({ path: ['/'] });
@@ -30,10 +29,12 @@ const verifyJwt = jwt({
 app.use(verifyJwt);
 
 // routes
+const userRoutes = require('./routes/userRoute');
 const exerciseRoutes = require('./routes/exerciseRoute');
-const exerciseLogRoutes = require('./routes/exerciseLogRoutes');
+const exerciseLogRoutes = require('./routes/exerciseLogRoute');
 const workoutRoutes = require('./routes/workoutRoute');
 
+app.use("/user", userRoutes);
 app.use("/exercise", exerciseRoutes);
 app.use("/exerciseLog", exerciseLogRoutes);
 app.use("/workout", workoutRoutes);
