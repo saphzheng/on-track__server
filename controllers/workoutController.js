@@ -7,6 +7,10 @@ const index = (_req, res) => {
     res.json(workoutData);
 }
 
+const getWorkoutByDate = (req, res) => {
+    const workoutData = JSON.parse(fs.readFileSync("./data/workouts.json"));
+}
+
 module.exports = {
     index
 }
