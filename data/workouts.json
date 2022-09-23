@@ -1,14 +1,7 @@
 [
     {
-        "date": "09212022",
-        "workoutId": "123456789",
-        "exercises": [
-            {
-                "exerciseId": "008",
-                "weight": "70",
-                "sets": "5",
-                "reps": "8"
-            }
-        ]
+        "date": "09-21-2022",
+        "exercises": ["001"],
+        "userId": "123456"
     }
 ]
