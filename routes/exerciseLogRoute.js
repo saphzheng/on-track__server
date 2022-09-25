@@ -10,5 +10,9 @@ router.route('/')
 // '/exerciseLog/:date' routes
 router.route('/:date')
     .get(exerciseLogController.getExerciseLogsByDate);
+    
+// '/exerciseLog/:id' routes
+router.route('/:id')
+    .delete(exerciseLogController.deleteExerciseLog);
 
 module.exports = router;

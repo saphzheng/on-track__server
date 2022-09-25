@@ -7504,14 +7504,6 @@
       "target": "pectorals"
     },
     {
-      "bodyPart": "chest",
-      "equipment": "leverage machine",
-      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1455.gif",
-      "id": "1455",
-      "name": "lever chest press v. 2",
-      "target": "pectorals"
-    },
-    {
       "bodyPart": "upper legs",
       "equipment": "leverage machine",
       "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0578.gif",
@@ -7910,14 +7902,6 @@
       "id": "1350",
       "name": "lever seated row",
       "target": "upper back"
-    },
-    {
-      "bodyPart": "shoulders",
-      "equipment": "leverage machine",
-      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1454.gif",
-      "id": "1454",
-      "name": "lever seated shoulder press",
-      "target": "delts"
     },
     {
       "bodyPart": "lower legs",

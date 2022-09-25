@@ -5,7 +5,7 @@ const { v4: uuid } = require('uuid');
 const index = (_req, res) => {
     const exerciseData = JSON.parse(fs.readFileSync("./data/exercises.json"));
     res.json(exerciseData);
-}
+};
 
 // '/exercise/:bodyPart' => get list of exercises relating a body part
 const getByBodyPart = (req, res) => {
@@ -13,7 +13,7 @@ const getByBodyPart = (req, res) => {
     const exerciseData = JSON.parse(fs.readFileSync("./data/exercises.json"));
     const filteredData = exerciseData.filter(exercise => exercise.bodyPart === bodyPart);
     res.json(filteredData);
-}
+};
 
 module.exports = {
     index,
