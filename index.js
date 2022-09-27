@@ -3,7 +3,6 @@ const express = require('express');
 const cors = require('cors');
 const { expressjwt: jwt } = require('express-jwt');
 const jwks = require('jwks-rsa');
-// const knex = require('knex')(require('./knexfile.js').development);
 
 // express app instance
 const app = express();
