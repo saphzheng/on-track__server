@@ -1,0 +1,83 @@
+[
+  {
+    "id": "73b4c1db-2abd-4d05-8e0a-b31af26d9341",
+    "exerciseName": "Band Side Triceps Extension",
+    "weight": "10",
+    "sets": "5",
+    "reps": "12",
+    "date": "09-22-2022",
+    "user": "sapphirazheng@gmail.com"
+  },
+  {
+    "id": "ea4657b6-f2c7-4caa-9e38-66fb06814e00",
+    "exerciseName": "Barbell Drag Curl",
+    "weight": "20",
+    "sets": "5",
+    "reps": "8",
+    "date": "09-22-2022",
+    "user": "sapphirazheng@gmail.com"
+  },
+  {
+    "id": "ea4657b6-f2c7-4caa-9e38-66fb06814e01",
+    "exerciseName": "Barbell Drag Curl",
+    "weight": "30",
+    "sets": "5",
+    "reps": "8",
+    "date": "09-23-2022",
+    "user": "sapphirazheng@gmail.com"
+  },
+  {
+    "id": "ea4657b6-f2c7-4caa-9e38-66fb06814e02",
+    "exerciseName": "Barbell Drag Curl",
+    "weight": "35",
+    "sets": "5",
+    "reps": "8",
+    "date": "09-24-2022",
+    "user": "sapphirazheng@gmail.com"
+  },
+  {
+    "id": "99ce9bc4-52b5-4e11-a049-ad6c24520ae0",
+    "exerciseName": "Barbell Floor Calf Raise",
+    "weight": 0,
+    "sets": 0,
+    "reps": 0,
+    "date": "09-22-2022",
+    "user": "sapphirazheng@gmail.com"
+  },
+  {
+    "id": "ba662bff-3886-4d09-bd21-4053ff43eb4e",
+    "exerciseName": "Arms Apart Circular Toe Touch (male)",
+    "weight": 0,
+    "sets": 0,
+    "reps": 0,
+    "date": "09-22-2022",
+    "user": "sapphirazheng@gmail.com"
+  },
+  {
+    "id": "f2247bdf-1c76-47f3-8d6a-7bb39667cdf8",
+    "exerciseName": "Archer Pull Up",
+    "weight": 0,
+    "sets": 0,
+    "reps": 0,
+    "date": "09-25-2022",
+    "user": "sapphirazheng@gmail.com"
+  },
+  {
+    "id": "73b4c1db-2abd-4d05-8e0a-b31af26d9342",
+    "exerciseName": "Band Side Triceps Extension",
+    "weight": "10",
+    "sets": "5",
+    "reps": "12",
+    "date": "09-20-2022",
+    "user": "sapphirazheng@gmail.com"
+  },
+  {
+    "id": "73b4c1db-2abd-4d05-8e0a-b31af26d9343",
+    "exerciseName": "Band Side Triceps Extension",
+    "weight": "20",
+    "sets": "5",
+    "reps": "12",
+    "date": "09-25-2022",
+    "user": "sapphirazheng@gmail.com"
+  }
+]
