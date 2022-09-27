@@ -29,15 +29,15 @@ const verifyJwt = jwt({
 app.use(verifyJwt);
 
 // routes
-const userRoutes = require('./routes/userRoute');
 const exerciseRoutes = require('./routes/exerciseRoute');
 const exerciseLogRoutes = require('./routes/exerciseLogRoute');
-const workoutRoutes = require('./routes/workoutRoute');
 
-app.use("/user", userRoutes);
 app.use("/exercise", exerciseRoutes);
 app.use("/exerciseLog", exerciseLogRoutes);
-app.use("/workout", workoutRoutes);
+
+app.get('/', (_req, res) => {
+    res.send("Ontrack API");
+});
 
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}...`);
