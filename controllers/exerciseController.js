@@ -1,5 +1,4 @@
 const fs = require('fs');
-const { v4: uuid } = require('uuid');
 
 // '/exercise' => get list of all exercises
 const index = (_req, res) => {
