@@ -9,6 +9,15 @@
     "user": "sapphirazheng@gmail.com"
   },
   {
+    "id": "73b4c1db-2abd-4d05-8e0a-b31af26d9341",
+    "exerciseName": "Band Side Triceps Extension",
+    "weight": "5",
+    "sets": "5",
+    "reps": "12",
+    "date": "07-22-2022",
+    "user": "sapphirazheng@gmail.com"
+  },
+  {
     "id": "ea4657b6-f2c7-4caa-9e38-66fb06814e00",
     "exerciseName": "Barbell Drag Curl",
     "weight": "20",
@@ -177,6 +186,33 @@
     "sets": 0,
     "reps": 0,
     "date": "07-28-2022",
+    "user": "sapphirazheng@gmail.com"
+  },
+  {
+    "id": "2b7a581a-ab63-44fd-b2e5-55d4924fce89",
+    "exerciseName": "Band Shoulder Press",
+    "weight": "60",
+    "sets": "5",
+    "reps": "9",
+    "date": "07-25-2022",
+    "user": "sapphirazheng@gmail.com"
+  },
+  {
+    "id": "2b7a581a-ab63-44fd-b2e5-55d4924fce89",
+    "exerciseName": "Band Shoulder Press",
+    "weight": "65",
+    "sets": "5",
+    "reps": "9",
+    "date": "08-25-2022",
+    "user": "sapphirazheng@gmail.com"
+  },
+  {
+    "id": "2b7a581a-ab63-44fd-b2e5-55d4924fce89",
+    "exerciseName": "Band Shoulder Press",
+    "weight": "25",
+    "sets": "5",
+    "reps": "9",
+    "date": "07-30-2022",
     "user": "sapphirazheng@gmail.com"
   }
 ]
